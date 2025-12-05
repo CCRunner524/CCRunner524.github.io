@@ -1,0 +1,11 @@
+[
+  {
+    "id": "change_die",
+    "name": "Change Die (global sample)",
+    "cost": 2,
+    "category": "instant",
+    "limit": 4,
+    "effectId": "modify_die",
+    "text": "Change one die to any value (sample)."
+  }
+]
