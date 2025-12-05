@@ -1,0 +1,18 @@
+{
+  "pyromancer": {
+    "id": "pyromancer",
+    "name": "Pyromancer (sample)",
+    "health": 50,
+    "startingCP": 0,
+    "diceFaces": ["1","2","3","4","5","6"],
+    "cardRefs": ["pyro_1","pyro_2"]
+  },
+  "shadow_thief": {
+    "id": "shadow_thief",
+    "name": "Shadow Thief (sample)",
+    "health": 50,
+    "startingCP": 0,
+    "diceFaces": ["1","2","3","4","5","6"],
+    "cardRefs": ["shadow_1","shadow_2"]
+  }
+}
