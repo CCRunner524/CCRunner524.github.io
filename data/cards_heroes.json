@@ -1,0 +1,42 @@
+{
+  "pyromancer": [
+    {
+      "id": "pyro_1",
+      "name": "Fireball (sample)",
+      "cost": 1,
+      "category": "action",
+      "limit": 2,
+      "effectId": "damage_3",
+      "text": "Deal 3 damage (sample)."
+    },
+    {
+      "id": "pyro_2",
+      "name": "Burn (sample)",
+      "cost": 0,
+      "category": "upgrade",
+      "limit": 1,
+      "effectId": "status_burn",
+      "text": "Apply burn (sample)."
+    }
+  ],
+  "shadow_thief": [
+    {
+      "id": "shadow_1",
+      "name": "Vanish (sample)",
+      "cost": 1,
+      "category": "action",
+      "limit": 2,
+      "effectId": "avoid_1",
+      "text": "Avoid next 1 damage (sample)."
+    },
+    {
+      "id": "shadow_2",
+      "name": "Backstab (sample)",
+      "cost": 2,
+      "category": "action",
+      "limit": 1,
+      "effectId": "damage_4",
+      "text": "Deal 4 damage (sample)."
+    }
+  ]
+}
