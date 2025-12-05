@@ -1,0 +1,7 @@
+{
+  "modify_die": { "type": "dice", "modify": true },
+  "damage_3": { "type": "damage", "value": 3 },
+  "damage_4": { "type": "damage", "value": 4 },
+  "status_burn": { "type": "status", "status": "burn", "duration": 2 },
+  "avoid_1": { "type": "shield", "value": 1 }
+}
