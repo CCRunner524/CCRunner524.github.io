@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dice Throne - Local Engine (Personal)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Dice Throne — Local Play Engine</h1>
+    <div class="controls">
+      <select id="hero1-select"></select>
+      <select id="hero2-select"></select>
+      <button id="start-btn">Start Game</button>
+      <label><input id="use-google-sheet" type="checkbox"> Load heroes from Google Sheet</label>
+      <input id="sheet-url" placeholder="(Optional) Google Sheets JSON URL" />
+    </div>
+  </header>
+
+  <main id="game-container">
+    <section id="player1-area" class="player-area">
+      <div class="player-header">
+        <h2 id="player1-name">Player 1</h2>
+        <div class="stats">
+          <span>HP: <span id="p1-hp">-</span></span>
+          <span>CP: <span id="p1-cp">-</span></span>
+        </div>
+      </div>
+      <div id="p1-hand" class="hand"></div>
+      <div id="p1-controls" class="player-controls"></div>
+    </section>
+
+    <section id="center-area">
+      <div id="dice-area" class="dice-area"></div>
+      <div id="log" class="log"></div>
+    </section>
+
+    <section id="player2-area" class="player-area">
+      <div class="player-header">
+        <h2 id="player2-name">Player 2</h2>
+        <div class="stats">
+          <span>HP: <span id="p2-hp">-</span></span>
+          <span>CP: <span id="p2-cp">-</span></span>
+        </div>
+      </div>
+      <div id="p2-hand" class="hand"></div>
+      <div id="p2-controls" class="player-controls"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Local only — no copyrighted content included. Use your own cards in /data/ or a private Google Sheet.</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/dataLoader.js"></script>
+  <script src="js/deck.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/effectEngine.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/ai.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
